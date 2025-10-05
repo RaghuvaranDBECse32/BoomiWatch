@@ -1,4 +1,4 @@
-# 🚀 Genome-Hub
+# 🚀 BoomiWatch
 ### AI-Powered NASA Space Biology Knowledge Engine  
 **NASA Space Apps Challenge 2025 – Universal Events**
 
@@ -6,7 +6,7 @@
 
 ## 🌌 Overview
 
-**Genome-Hub** is an AI-driven, interactive web dashboard built to explore and visualize NASA’s bioscience experiments.  
+**BoomiWatch** is an AI-driven, interactive web dashboard built to explore and visualize NASA’s bioscience experiments.  
 It integrates **3D visualizations**, **animated UI**, and **space-biology knowledge cards** to make complex data accessible and visually engaging.  
 
 The platform is inspired by the theme of space exploration, bioscience, and AI-powered research visualization — combining data and storytelling into one futuristic experience.
@@ -45,5 +45,5 @@ The platform is inspired by the theme of space exploration, bioscience, and AI-p
 Clone the repository:
 
 ```bash
-git clone https://github.com/RaghuvaranDBECse32/Genome-Hub.git
-cd Genome-Hub
+git clone https://github.com/RaghuvaranDBECse32/BoomiWatch.git
+cd BoomiWatch
