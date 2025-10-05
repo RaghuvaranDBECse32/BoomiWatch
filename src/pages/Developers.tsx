@@ -56,7 +56,7 @@ export default function Developers() {
                   GH
                 </div>
                 <div className="ml-4">
-                  <h2 className="text-2xl font-bold text-white">Your Name</h2>
+                  <h2 className="text-2xl font-bold text-white">Raghuvaran Damodaran</h2>
                   <p className="text-[#00C8FF]">Full Stack Developer</p>
                 </div>
               </div>
