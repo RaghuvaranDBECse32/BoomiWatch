@@ -77,7 +77,7 @@ export default function Developers() {
                   <span>GitHub</span>
                 </a>
                 <a
-                  href="mailto:raghuvarandamodaran2002@outlook.com.com"
+                  href="mailto:raghuvarandamodaran2002@outlook.com"
                   className="flex items-center space-x-2 px-4 py-2 bg-gray-800 hover:bg-[#00C8FF]/20 border border-gray-700 hover:border-[#00C8FF] rounded-lg text-gray-300 hover:text-[#00C8FF] transition-all"
                 >
                   <Mail className="w-4 h-4" />
