@@ -57,15 +57,14 @@ export default function Presentation() {
               </div>
 
               <div className="flex flex-col gap-3">
-                <a
-                  href="#"
+                <a href="https://docs.google.com/presentation/d/1j8eBKm-CZtJtTHAkID_1rrjkewEetvd0/edit?usp=drive_link&ouid=100280380745398753487&rtpof=true&sd=true"
                   className="flex items-center justify-center space-x-2 px-6 py-3 bg-[#FFE81F] text-black font-semibold rounded-lg hover:bg-[#00C8FF] hover:text-white transition-all"
                 >
                   <Download className="w-5 h-5" />
                   <span>Download Presentation (PPTX)</span>
                 </a>
                 <a
-                  href="#"
+                  href="https://drive.google.com/file/d/1G8o30IPIyNd878z1Cz9XynwEgPsKS-VV/view?usp=sharing"
                   className="flex items-center justify-center space-x-2 px-6 py-3 border-2 border-[#00C8FF] text-[#00C8FF] font-semibold rounded-lg hover:bg-[#00C8FF]/10 transition-all"
                 >
                   <FileText className="w-5 h-5" />
