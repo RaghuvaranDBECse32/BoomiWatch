@@ -33,7 +33,7 @@ export default function Intro() {
           </div>
 
           <h1 className="text-6xl md:text-8xl font-bold mb-4 text-glow lcars-gold">
-            GENOME HUB
+            BOOMIWATCH
           </h1>
 
           <motion.p
@@ -68,7 +68,7 @@ export default function Intro() {
           >
             <span className="relative z-10 flex items-center space-x-2">
               <Sparkles className="w-5 h-5" />
-              <span>Enter Genome Hub</span>
+              <span>Enter BoomiWatch</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </span>
             <motion.div
