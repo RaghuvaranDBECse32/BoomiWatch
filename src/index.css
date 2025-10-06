@@ -7,42 +7,39 @@
 @layer base {
   body {
     @apply font-sans;
-    background: linear-gradient(135deg, #E3E0D9 0%, #B6D5B0 55%, #AEE9F5 100%);
-    font-family: 'Inter', sans-serif;
-    color: #40513B; /* deep earthy green */
+    background: linear-gradient(135deg, #e9ece5 0%, #d5ccb1 30%, #a4c3b2 80%, #8ecae6 100%);
+    font-family: 'Times New Roman', sans-serif;
+    color: #425c34; /* earthy green for text */
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Orbitron', sans-serif;
-    color: #6D6F73; /* dark silver */
-    letter-spacing: 0.03em;
+    color: #55585c; /* dark silver for headers */
+    text-shadow: none;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
-    text-shadow: none; /* no strong glow */
-    background: none;
   }
 }
 
 @layer utilities {
-  .text-forest {
-    color: #40513B; /* deep forest green */
-  }
-
   .text-earth {
-    color: #A1672A; /* warm earth brown */
+    color: #a17c5b; /* earthy brown */
   }
-
   .text-sky {
-    color: #3999B6; /* soft sky blue */
+    color: #8ecae6; /* soft blue */
   }
-
-  .border-earth {
-    border-color: #A1672A;
+  .text-meadow {
+    color: #425c34; /* earthy green */
   }
-
+  .border-warm {
+    border-color: #eddbc7;
+  }
+  .bg-earth {
+    background: #cbc8b5;
+  }
   .bg-meadow {
-    background: linear-gradient(90deg, #E3E0D9 0%, #B6D5B0 100%);
+    background: #a4c3b2;
   }
-
-  .bg-softblue {
-    background: #AEE9F5;
+  .bg-sky {
+    background: #c4e7f2;
   }
 }
