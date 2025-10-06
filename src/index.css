@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,38 +7,47 @@
 @layer base {
   body {
     @apply font-sans;
-    font-family: 'Inter', sans-serif;
-    color: #4D8055; /* muted green for natural text */
-    background: linear-gradient(135deg, #DEFDE0 0%, #73C6B6 50%, #F5F5DC 100%);
-    /* light greens fading to a calming beige */
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(135deg, #e6ede0 0%, #cde3d3 30%, #f5eee6 70%, #b6aaa5 100%);
+    color: #3e5238; /* earthy dark green for text */
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Orbitron', sans-serif;
-    color: silver;
+    color: #bfc7ce; /* light silver-blue for headings */
+    letter-spacing: 1px;
   }
 }
 
 @layer utilities {
   .text-glow {
-    text-shadow: 0 0 10px #81C784, 0 0 20px #AED581, 0 0 30px #DCE775;
-    /* soft nature-inspired glow */
+    text-shadow: 0 0 8px #c0c0c0, 0 0 16px #f5f5f5, 0 0 24px #cacaca;
+    /* silver, shiny glow */
   }
 
   .border-glow {
-    box-shadow: 0 0 10px #4D8055, 0 0 20px #A3C39E;
+    box-shadow: 0 0 8px #c0c0c0, 0 0 12px #f5f5f5;
+    /* silver glow for borders */
   }
 
-  .lcars-gold {
-    color: #BFA84F; /* warm earthy gold */
+  .nature-green {
+    color: #6b8e23; /* olive green */
   }
 
-  .lcars-blue {
-    color: #75B8C8; /* natural sky blue */
+  .nature-brown {
+    color: #8b6f43; /* warm brown */
   }
 
-  .bg-space {
-    background: linear-gradient(120deg, #AACF91 0%, #E1F5C4 100%);
-    /* nature gradient background */
+  .nature-blue {
+    color: #5f97b2; /* muted soft blue */
+  }
+
+  .nature-neutral {
+    color: #d8cab0; /* warm neutral */
+  }
+
+  .bg-nature {
+    background: linear-gradient(120deg, #e6ede0 0%, #a5c19b 40%, #8b6f43 100%);
+    /* green to brown earth-inspired gradient */
   }
 }
