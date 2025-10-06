@@ -6,33 +6,39 @@
 
 @layer base {
   body {
-    @apply bg-black text-white font-sans;
+    @apply font-sans;
     font-family: 'Inter', sans-serif;
+    color: #4D8055; /* muted green for natural text */
+    background: linear-gradient(135deg, #DEFDE0 0%, #73C6B6 50%, #F5F5DC 100%);
+    /* light greens fading to a calming beige */
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Orbitron', sans-serif;
+    color: silver;
   }
 }
 
 @layer utilities {
   .text-glow {
-    text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
+    text-shadow: 0 0 10px #81C784, 0 0 20px #AED581, 0 0 30px #DCE775;
+    /* soft nature-inspired glow */
   }
 
   .border-glow {
-    box-shadow: 0 0 10px currentColor, 0 0 20px currentColor;
+    box-shadow: 0 0 10px #4D8055, 0 0 20px #A3C39E;
   }
 
   .lcars-gold {
-    color: #FFE81F;
+    color: #BFA84F; /* warm earthy gold */
   }
 
   .lcars-blue {
-    color: #00C8FF;
+    color: #75B8C8; /* natural sky blue */
   }
 
   .bg-space {
-    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    background: linear-gradient(120deg, #AACF91 0%, #E1F5C4 100%);
+    /* nature gradient background */
   }
 }
