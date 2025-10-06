@@ -14,7 +14,7 @@ export default function Footer() {
 
           <div className="flex items-center space-x-6">
             <a
-              href="https://www.nasa.gov/genelab/"
+              href="https://www.spaceappschallenge.org/2025/find-a-team/boomiwatch/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-[#00C8FF] hover:text-[#FFE81F] transition-colors"
@@ -23,7 +23,7 @@ export default function Footer() {
               <span className="text-sm">NASA GeneLab</span>
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/RaghuvaranDBECse32/BoomiWatch"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-[#00C8FF] hover:text-[#FFE81F] transition-colors"
