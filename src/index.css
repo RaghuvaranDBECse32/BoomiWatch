@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,39 +7,36 @@
 @layer base {
   body {
     @apply font-sans;
-    background: linear-gradient(135deg, #e9ece5 0%, #d5ccb1 30%, #a4c3b2 80%, #8ecae6 100%);
+    background: radial-gradient(ellipse at top, #141821 0%, #05070a 100%);
+    background-repeat: no-repeat;
     font-family: 'Times New Roman', sans-serif;
-    color: #425c34; /* earthy green for text */
+    color: #e6f1ff; /* cool space-blue/gray text */
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Orbitron', sans-serif;
-    color: #55585c; /* dark silver for headers */
-    text-shadow: none;
-    letter-spacing: 0.04em;
+    font-family: 'Linotype Didot Pro Bold', sans-serif;
+    color: #c9e2ff; /* lighter, low-saturation blue for headings */
+    letter-spacing: 0.02em;
+    font-weight: 700;
     text-transform: uppercase;
+    text-shadow: 0 2px 12px rgba(85,180,255,0.07);
   }
 }
 
 @layer utilities {
-  .text-earth {
-    color: #a17c5b; /* earthy brown */
+  .text-starlight {
+    color: #93e4fa; /* soft starlight teal */
   }
-  .text-sky {
-    color: #8ecae6; /* soft blue */
+  .text-galaxy {
+    color: #b1b6c9; /* pale galaxy gray */
   }
-  .text-meadow {
-    color: #425c34; /* earthy green */
+  .border-nebula {
+    border-color: #5dbad4;
   }
-  .border-warm {
-    border-color: #eddbc7;
+  .bg-spaceblack {
+    background: #05070a;
   }
-  .bg-earth {
-    background: #cbc8b5;
-  }
-  .bg-meadow {
-    background: #a4c3b2;
-  }
-  .bg-sky {
-    background: #c4e7f2;
+  .bg-stargradient {
+    background: radial-gradient(ellipse at top, #232a41 0%, #05070a 100%);
   }
 }
+
