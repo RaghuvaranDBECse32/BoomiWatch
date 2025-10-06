@@ -20,7 +20,7 @@ export default function Footer() {
               className="flex items-center space-x-2 text-[#00C8FF] hover:text-[#FFE81F] transition-colors"
             >
               <Globe className="w-4 h-4" />
-              <span className="text-sm">NASA GeneLab</span>
+              <span className="text-sm">NASA Project Description</span>
             </a>
             <a
               href="https://github.com/RaghuvaranDBECse32/BoomiWatch"
