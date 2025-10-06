@@ -13,7 +13,7 @@
     color: #e6f1ff; /* cool space-blue/gray text */
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Linotype Didot Pro Bold', sans-serif;
+    font-family: 'Linotype Didot', sans-serif;
     color: #c9e2ff; /* lighter, low-saturation blue for headings */
     letter-spacing: 0.02em;
     font-weight: 700;
